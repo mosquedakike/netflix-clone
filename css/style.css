@@ -1,0 +1,105 @@
+:root{
+    --color-button: #E50914;
+    --text-padding: 0.5rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/65a0f47d-0c7a-4632-97d9-9489cf5ac27e/1f75c12e-2029-4f78-a3d0-86fbcbfbf324/MX-es-20210817-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+
+.header{
+ color: white;
+}
+
+.containar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+
+.netflix-logo{
+    width: 160px;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.list-items-nav{
+    padding: 1rem;
+}
+
+.list-items-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    background-color: var(--color-button);
+    border-radius: 5px;
+}
+
+.main{
+    width: 100vw;
+    height: 60vh;
+}
+
+.one-section{
+    padding-top: 10rem;
+}
+
+.one-text{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+.two-text{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.three-text{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.section-mail-input{
+    display: flex;
+    justify-content: center;
+}
+
+.mail-input{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.comenzar-button{
+     background-color: var(--color-button);
+     border-radius: 5px;
+     color: white;
+     width: 200px;
+}
